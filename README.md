@@ -1,47 +1,20 @@
-# Quiz Web Application
+# The Quiz App #
 
-An interactive browser-based quiz application built using HTML, CSS, and JavaScript.  
-The app dynamically loads quiz questions from a JSON file and provides real-time score calculation.
+This is a simple JavaScript quiz app. This Task is given by BITS PILANI [SU Tech Team](https://su-bitspilani.org/index.html).
 
-## Features
+Take the [sample quiz](https://nil1729.github.io/QuizApp/) to see how it works.
 
-- Dynamic question rendering using JSON  
-- Interactive user interface  
-- Score tracking and result display  
-- Responsive design  
-- Easily customizable quiz questions  
+### About Quiz App ###
 
-## Technologies Used
+* The goal of this project was to create a JavaScript quiz that is flexible enough in design to be reused for other quizzes. The quiz accomplishes this by taking in a JSON file that can be modified for any number of questions with any possible number of answers.
 
-- HTML  
-- CSS  
-- JavaScript  
-- JSON  
+### How do I get set up? ###
 
-## How It Works
+#### Configuration
+* Store your quiz data in the quizdata.json file.
+* Customize your CSS
+* In `script.js`, update the following JS function with a link to your JSON file.
 
-Quiz questions are stored in a JSON file.  
-JavaScript fetches the data and dynamically displays questions and options.  
-User answers are captured, evaluated, and the final score is shown.
-
-## How to Run
-
-1. Clone the repository  
-2. Open `index.html` in your browser  
-
-No server or backend setup required.
-
-## Customization
-
-Edit the `quizdata.json` file to add or modify quiz questions.
-
-## Future Improvements
-
-- Timer-based quiz  
-- Category selection  
-- Leaderboard system  
-- Backend integration  
-
-## License
-
-This project is open-source and free to use.
+```
+fetch("https://yourDomain/quizdata.json")     
+```
