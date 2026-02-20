@@ -3,6 +3,8 @@
 An interactive browser-based quiz application built using HTML, CSS, and JavaScript.  
 The app dynamically loads quiz questions from a JSON file and provides real-time score calculation.
 
+View My Project -> https://vinaykumar-tech77.github.io/Quiz-Web-Application/
+
 ## Features
 
 - Dynamic question rendering using JSON  
